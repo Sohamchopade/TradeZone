@@ -12,7 +12,7 @@ function LoginUp() {
 
   try {
     const response = await axios.post(
-      "http://localhost:3002/login",
+      "https://tradezone-backend-wegp.onrender.com/login",
       {
         email,
         password,
@@ -23,7 +23,7 @@ function LoginUp() {
     );
 
     if (response.data.success) {
-      window.location.href = "http://localhost:3001";
+      window.location.href = "https://tradezone-dashboard.onrender.com";
     } else {
       alert(response.data.message);
     }

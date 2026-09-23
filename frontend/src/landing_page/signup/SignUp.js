@@ -15,14 +15,14 @@ function SignUp(){
   e.preventDefault();
 
   try {
-    await axios.post("http://localhost:3002/signup", {
+    await axios.post("https://tradezone-backend-wegp.onrender.com/signup", {
       username,
       email,
       password,
     });
 
     // Signup successful → open Kite Dashboard
-    window.location.href = "http://localhost:3001";
+    window.location.href = "https://tradezone-dashboard.onrender.com";
 
   }catch (error) {
   console.log("SIGNUP ERROR:", error.response?.data);
