@@ -69,7 +69,7 @@ const data={
             const curValue = stock.price * stock.qty;
             const isProfit = curValue - stock.avg * stock.qty >= 0.0;
             const profClass = isProfit ? "profit" : "loss";
-            const dayClass = stock.isLoss ? "loss" : "profit";
+            const dayClass = stock.day.startsWith("-") ? "loss" : "profit";
 
             return (
               <tr key={index}>
@@ -89,24 +89,41 @@ const data={
         </table>
       </div>
 
-      <div className="row">
-        <div className="col">
-          <h5>
-            29,875.<span>55</span>{" "}
-          </h5>
-          <p>Total investment</p>
-        </div>
-        <div className="col">
-          <h5>
-            31,428.<span>95</span>{" "}
-          </h5>
-          <p>Current value</p>
-        </div>
-        <div className="col">
-          <h5>1,553.40 (+5.20%)</h5>
-          <p>P&L</p>
-        </div>
-      </div>
+       <div className="row">
+  <div className="col">
+    <h5>
+      {allHoldings
+        .reduce((total, stock) => total + stock.avg * stock.qty, 0)
+        .toFixed(2)}
+    </h5>
+    <p>Total investment</p>
+  </div>
+
+  <div className="col">
+    <h5>
+      {allHoldings
+        .reduce((total, stock) => total + stock.price * stock.qty, 0)
+        .toFixed(2)}
+    </h5>
+    <p>Current value</p>
+  </div>
+
+  <div className="col">
+    <h5>
+      {(
+        allHoldings.reduce(
+          (total, stock) => total + stock.price * stock.qty,
+          0
+        ) -
+        allHoldings.reduce(
+          (total, stock) => total + stock.avg * stock.qty,
+          0
+        )
+      ).toFixed(2)}
+    </h5>
+    <p>P&L</p>
+  </div>
+</div>
 <VerticalGraph data={data}/>
 
     </>

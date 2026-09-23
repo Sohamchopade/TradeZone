@@ -2,6 +2,9 @@ import React, { useState } from "react";
 import axios from "axios";
 import "./SignUp.css";
 import "./SignUp.css";
+
+import { Link } from "react-router-dom";
+
 function SignUp(){
  const [username, setUsername] = useState("");
   const [email, setEmail] = useState("");
@@ -21,10 +24,15 @@ function SignUp(){
     // Signup successful → open Kite Dashboard
     window.location.href = "http://localhost:3001";
 
-  } catch (error) {
-    console.log(error);
+  }catch (error) {
+  console.log("SIGNUP ERROR:", error.response?.data);
+
+  if (error.response?.data?.message) {
+    alert(error.response.data.message);
+  } else {
     alert("Signup failed");
   }
+}
 };
     return(
         <>
@@ -115,6 +123,8 @@ function SignUp(){
 
   </div>
 
+<div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
+
   <button
     type="submit"
     className="btn"
@@ -122,10 +132,15 @@ function SignUp(){
       backgroundColor: "#387ed1",
       color: "#ffffff",
       border: "1px solid #387ed1",
+       
     }}
   >
-    Submit
+    Submit 
   </button>
+  <br/>
+   <p style={{marginTop:"10px"}}>Already have an account?   <Link to="/login"style={{textDecoration:"none"}}>Login</Link>
+    </p>
+     </div>
 </form>
 </div>
 

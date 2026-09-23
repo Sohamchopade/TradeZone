@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
 import { Link } from "react-router-dom";
 
 import axios from "axios";
@@ -7,27 +7,44 @@ import GeneralContext from "./GeneralContext";
 
 import "./BuyActionWindow.css";
 
-const BuyActionWindow = ({ uid }) => {
+ const BuyActionWindow = ({ uid }) => {
+  const { closeBuyWindow } = useContext(GeneralContext);
   const [stockQuantity, setStockQuantity] = useState(1);
   const [stockPrice, setStockPrice] = useState(0.0);
 
-  const handleBuyClick = () => {
-    axios.post("http://localhost:3002/newOrder", {
-      name: uid,
-      qty: stockQuantity,
-      price: stockPrice,
-      mode: "BUY",
-    });
+   const handleBuyClick = async () => {
+  try {
+    const response = await axios.post(
+      "http://localhost:3002/newOrder",
+      {
+        name: uid,
+        qty: Number(stockQuantity),
+        price: Number(stockPrice),
+        mode: "BUY",
+      }
+    );
 
-    GeneralContext.closeBuyWindow();
-  };
+    console.log("ORDER RESPONSE:", response);
+    console.log("ORDER DATA:", response.data);
 
+    alert("Order placed successfully!");
+
+    closeBuyWindow();
+
+  } catch (error) {
+    console.log("FULL ORDER ERROR:", error);
+    console.log("ERROR RESPONSE:", error.response);
+    console.log("ERROR DATA:", error.response?.data);
+
+    alert("Order failed. Check console.");
+  }
+};
   const handleCancelClick = () => {
-    GeneralContext.closeBuyWindow();
+    closeBuyWindow();
   };
 
   return (
-    <div className="container" id="buy-window" draggable="true">
+ <div className="container" id="buy-window">
       <div className="regular-order">
         <div className="inputs">
           <fieldset>
@@ -56,14 +73,30 @@ const BuyActionWindow = ({ uid }) => {
 
       <div className="buttons">
         <span>Margin required ₹140.65</span>
-        <div>
-          <Link className="btn btn-blue" onClick={handleBuyClick}>
-            Buy
-          </Link>
-          <Link to="" className="btn btn-grey" onClick={handleCancelClick}>
-            Cancel
-          </Link>
-        </div>
+        
+<div>
+   <button
+  type="button"
+  className="btn btn-blue"
+  onClick={() => {
+  
+    handleBuyClick();
+  }}
+>
+  Buy
+</button>
+
+    <button
+        type="button"
+        className="btn btn-grey"
+        onClick={handleCancelClick}
+    >
+        Cancel
+    </button>
+</div>
+
+
+
       </div>
     </div>
   );
