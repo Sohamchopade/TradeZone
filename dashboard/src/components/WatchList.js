@@ -25,7 +25,7 @@ useEffect(() => {
       const symbols = initialWatchlist.map((stock) => stock.name);
 
       const response = await axios.post(
-        "http://localhost:3002/api/stocks/batch",
+        "https://tradezone-backend-wegp.onrender.com/api/stocks/batch",
         {
           symbols: symbols,
         }
