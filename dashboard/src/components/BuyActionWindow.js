@@ -15,7 +15,7 @@ import "./BuyActionWindow.css";
    const handleBuyClick = async () => {
   try {
     const response = await axios.post(
-      "http://localhost:3002/newOrder",
+      "https://tradezone-backend-wegp.onrender.com/newOrder",
       {
         name: uid,
         qty: Number(stockQuantity),
