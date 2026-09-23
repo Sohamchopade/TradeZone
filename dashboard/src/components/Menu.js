@@ -7,7 +7,7 @@ const Menu = () => {
 
    const handleLogout = () => {
   localStorage.clear();
-  window.location.href = "http://localhost:3000";
+  window.location.href = "https://tradezone-frontend-6v41.onrender.com";
 };
   const [selectedMenu, setSelectedMenu] = useState(0);
   const [isProfileDropdownOpen, setIsProfileDropdownOpen] = useState(false);
