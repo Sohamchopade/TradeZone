@@ -46,8 +46,8 @@ const isRateLimited = () => {
 };
 
 const allowedOrigins = [
-    "http://localhost:3000",
-    "http://localhost:3001"
+    "https://tradezone-frontend-6v41.onrender.com",
+    "https://tradezone-dashboard.onrender.com"
 ];
 
 app.use(cors({
