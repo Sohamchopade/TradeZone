@@ -8,12 +8,18 @@ import { VerticalGraph } from "./VerticalGraph";
 const Holdings = () => {
 
   const[allHoldings,setAllHoldings]=useState([]);
-
-  useEffect(()=>{
-axios.get("https://tradezone-backend-wegp.onrender.com/allHoldings").then((res)=>{
-setAllHoldings(res.data);
-})
-  },[]);
+ 
+  useEffect(() => {
+  axios
+    .get("https://tradezone-backend-wegp.onrender.com/allHoldings")
+    .then((res) => {
+      console.log(" HOLDINGS DATA:", res.data);
+      setAllHoldings(res.data);
+    })
+    .catch((err) => {
+      console.log(" HOLDINGS ERROR:", err);
+    });
+}, []);
  
 //   const labels = ['January', 'February', 'March', 'April', 'May', 'June', 'July'];
 
