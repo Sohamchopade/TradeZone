@@ -23,12 +23,11 @@ const navigate = useNavigate();
             letterSpacing: "-0.5px",
             lineHeight: "1.3",
             margin: "0 0 18px",
-          }} className="mt-5">Open a Zerodha account</h3>
+          }} className="mt-5">Open a Tradezone account</h3>
         <br/>
           <br/>
         <p>
-          Modern platforms and apps, ₹0 investments, and flat ₹20 intraday and
-          F&O trades.
+           Modern platform for simulated trading and learning.
         </p>
         <br/>
           <br/>

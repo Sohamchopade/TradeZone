@@ -20,7 +20,7 @@ function Hero() {
           margin: "0 0 70px",
           letterSpacing: "-0.3px",
         }}>
-          Free equity investments and flat ₹20 traday and F&O trades
+           Simple and transparent simulated pricing for a smooth trading experience
         </h3>
       </div>
       <div className="row p-5 mt-5 text-center">
@@ -37,8 +37,8 @@ function Hero() {
         <br/>
 
           <p className="text-muted">
-            All equity delivery investments (NSE, BSE), are absolutely free — ₹
-            0 brokerage.
+            Simulated equity delivery
+Demonstration of ₹0 brokerage for equity delivery orders.
           </p>
         </div>
         <div className="col-4 p-4">
@@ -53,8 +53,8 @@ function Hero() {
         }}>Intraday and F&O trades</h2>
            <br/>
           <p className="text-muted">
-            Flat Rs. 20 or 0.03% (whichever is lower) per executed order on
-            intraday trades across equity, currency, and commodity trades.
+            Simulated intraday and F&O trades
+Demonstration of a flat ₹20 or 0.03% (whichever is lower) per simulated order.
           </p>
         </div>
         <div className="col-4 p-4">
@@ -69,8 +69,8 @@ function Hero() {
         }}>Free direct MF</h2>
            <br/>
           <p className="text-muted">
-            All direct mutual fund investments are absolutely free — ₹ 0
-            commissions & DP charges.
+            Simulated direct mutual funds
+Demonstration of ₹0 commissions and DP charges for direct mutual fund investments.
           </p>
         </div>
       </div>

@@ -4,19 +4,18 @@ function Hero() {
   return (
     <div className="container" style={{marginTop:"100px"}}>
       <div className="row p-5 mt-5 mb-5">
-        <h3
+        <h4
         style={{
          
         textAlign:"center",
           color: "#424242",
-          lineHeight: "1.5",
+          lineHeight: "1.7",
           margin: "0 0 70px",
           letterSpacing: "-0.3px",
         }}>
-          We pioneered the discount broking model in India
-          <br />
-          Now, we are breaking ground with our technology.
-        </h3>
+          Built to simplify the stock market experience with modern technology.<br/>
+TradeZone brings powerful features together in one simple platform.
+        </h4>
       </div>
 
       <div
@@ -32,11 +31,7 @@ function Hero() {
               lineHeight: "1.8",
               marginBottom: "35px",
             }}>
-            We kick-started operations on the 15th of August, 2010 with the goal
-            of breaking all barriers that traders and investors face in India in
-            terms of cost, support, and technology. We named the company
-            Zerodha, a combination of Zero and "Rodha", the Sanskrit word for
-            barrier.
+            TradeZone is a full-stack stock market project inspired by modern trading platforms. It combines a React.js frontend, Node.js and Express.js backend, MongoDB database, REST APIs, and external market data.
           </p>
           <p style={{
               fontSize: "16px",
@@ -45,8 +40,7 @@ function Hero() {
               lineHeight: "1.8",
               marginBottom: "35px",
             }}>
-            Today, our disruptive pricing models and in-house technology have
-            made us the biggest stock broker in India.
+              TradeZone combines modern technology, intuitive design, and practical features to create a simple and organized stock market experience. The platform brings different trading tools together in one place, making it easier for users to explore stocks, track market information, and manage their simulated trading activities.
           </p>
 
           <p style={{
@@ -56,13 +50,11 @@ function Hero() {
               lineHeight: "1.8",
               marginBottom: "35px",
             }}>
-            Over 1+ Crore clients place millions of orders every day through our
-            powerful ecosystem of investment platforms, contributing over 15% of
-            all Indian retail trading volumes.
+             Users can explore stocks, manage watchlists, place simulated buy orders, and view their orders, holdings, positions, and funds through the dashboard.
           </p>
 
         </div>
-        <div className="col-6 p-5">
+        <div className="col-6 p-5 mt-3">
           <p style={{
               fontSize: "16px",
               fontWeight: "400",
@@ -70,8 +62,7 @@ function Hero() {
               lineHeight: "1.8",
               marginBottom: "35px",
             }}>
-            In addition, we run a number of popular open online educational and
-            community initiatives to empower retail traders and investors.
+             TradeZone brings essential stock market features together in one simple and organized platform for users to <a href="" style={{textDecoration:"none"}}>explore</a> and track stocks.
           </p>
 
           <p style={{
@@ -81,11 +72,7 @@ function Hero() {
               lineHeight: "1.8",
               marginBottom: "35px",
             }}>
-            <a href="" style={{ textDecoration: "none" }}>
-              Rainmatter
-            </a>
-            , our fintech fund and incubator, has invested in several fintech
-            startups with the goal of growing the Indian capital markets.
+             The project connects the frontend, backend, database, REST APIs, and external market data into one complete application.
           </p>
 
           <p style={{
@@ -95,9 +82,7 @@ function Hero() {
               lineHeight: "1.8",
               marginBottom: "35px",
             }}>
-            And yet, we are always up to something new every day. Catch up on
-            the latest updates on our blog or see what the media is saying about
-            us.
+            TradeZone is built as a learning and portfolio project to gain practical experience in full-stack development and simulated trading workflows.
           </p>
         </div>
       </div>

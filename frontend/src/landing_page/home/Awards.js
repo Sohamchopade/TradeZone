@@ -15,11 +15,10 @@ function Awards() {
             letterSpacing: "-0.5px",
             lineHeight: "1.3",
             margin: "0 0 18px",
-          }}>Largest stock broker in India</h2>
+          }}>A simple platform for modern investing</h2>
           <br/>
           <p className="mb-5">
-            2+ million Zerodha clients contribute to over 15% of all retail
-            order volumes in India daily by trading and investing in:
+             Explore and track a variety of market instruments through a simple and intuitive platform.
           </p>
           <div className="row">
             <div className="col-6">

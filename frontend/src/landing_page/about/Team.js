@@ -14,7 +14,7 @@ function Team() {
           margin: "0 0 70px",
           letterSpacing: "-0.3px",
           marginTop:"30px"
-        }}>People</h2>
+        }}>The Project</h2>
       </div>
 
       <div
@@ -23,11 +23,12 @@ function Team() {
       >
         <div className="col-6 p-3 text-center">
           <img
-            src="media/images/nithinKamath.jpg"
-            style={{ borderRadius: "100%", width: "50%" }}
+            src="media/images/image.png"
+            style={{ width: "90%", borderRadius:"10px"}}
           />
-          <h4 className="mt-5">Nithin Kamath</h4>
-          <h6>Founder, CEO</h6>
+          <h4 className="mt-5" style={{marginBottom:"10px"}}>TradeZone Dashboard</h4>
+          
+          <h6>Trading & Portfolio Platform</h6>
         </div>
         <div className="col-6 p-3">
           <p style={{
@@ -37,9 +38,7 @@ function Team() {
               lineHeight: "1.8",
               marginBottom: "35px",
             }}>
-            Nithin bootstrapped and founded Zerodha in 2010 to overcome the
-            hurdles he faced during his decade long stint as a trader. Today,
-            Zerodha has changed the landscape of the Indian broking industry.
+             TradeZone brings stock discovery, watchlists, orders, holdings, positions, and funds together in one trading dashboard.
           </p>
           <p style={{
               fontSize: "16px",
@@ -48,8 +47,7 @@ function Team() {
               lineHeight: "1.8",
               marginBottom: "35px",
             }}>
-            He is a member of the SEBI Secondary Market Advisory Committee
-            (SMAC) and the Market Data Advisory Committee (MDAC).
+            The dashboard connects the frontend with backend services, REST APIs, and database operations to create a complete full-stack application.
           </p>
           <p style={{
               fontSize: "16px",
@@ -57,7 +55,7 @@ function Team() {
               color: "#424242",
               lineHeight: "1.8",
               marginBottom: "35px",
-            }}>Playing basketball is his zen.</p>
+            }}>Built as a learning and portfolio project.</p>
           <p style={{
               fontSize: "16px",
               fontWeight: "400",

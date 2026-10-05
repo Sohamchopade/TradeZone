@@ -233,13 +233,13 @@ function Footer() {
             <div className="footer-brand">
 
               <img
-                src="media/images/logo.svg"
+                src="media/images/op.png"
                 alt="Zerodha"
                 className="footer-logo"
               />
 
               <p className="footer-copy">
-                © 2010 - 2026, Zerodha Broking Ltd.
+                © 2026, TradeZone. All rights reserved.
                 <br />
                 All rights reserved.
               </p>
@@ -369,8 +369,8 @@ function Footer() {
                 <li><a href="#">Philosophy</a></li>
                 <li><a href="#">Press & media</a></li>
                 <li><a href="#">Careers</a></li>
-                <li><a href="#">Zerodha Cares (CSR)</a></li>
-                <li><a href="#">Zerodha.tech</a></li>
+                <li><a href="#">Tradezone Cares (CSR)</a></li>
+                <li><a href="#">Tradezone.tech</a></li>
                 <li><a href="#">Open source</a></li>
                 <li><a href="#">Referral program</a></li>
               </ul>
@@ -402,76 +402,97 @@ function Footer() {
 
           {/* ================= BOTTOM INFORMATION ================= */}
 
-          <div className="footer-bottom">
+           <div className="footer-bottom">
 
-            <p>
-              Zerodha Broking Ltd.: Member of NSE, BSE, MCX & MSEI – SEBI
-              Registration no.: INZ000031633 CDSL/NSDL: Depository services
-              through Zerodha Broking Ltd. – SEBI Registration no.:
-              IN-DP-431-2019 Registered Address: Zerodha Broking Ltd.,
-              #153/154, 4th Cross, Dollars Colony, Opp. Clarence Public School,
-              J.P Nagar 4th Phase, Bengaluru - 560078, Karnataka, India. For
-              any complaints pertaining to securities broking please write to{" "}
-              <a href="#">complaints@zerodha.com</a>, for DP related to{" "}
-              <a href="#">dp@zerodha.com</a>.
-            </p>
+  <p>
+    TradeZone is a full-stack stock market project inspired by modern trading
+    platforms and developed to demonstrate a complete web application
+    experience. The platform brings together a user-friendly frontend,
+    backend services, database integration, REST APIs, and external market
+    data to create a realistic stock market dashboard for learning and
+    demonstration purposes.
+  </p>
 
-            <p>
-              Procedure to file a complaint on{" "}
-              <a href="#">SEBI SCORES/SMARTODR</a>: Register on SCORES portal &
-              SMARTODR. Mandatory details for filing complaints on SCORES:
-              Name, PAN, Address, Mobile Number, E-mail ID. Benefits: Effective
-              Communication, Speedy redressal of the grievances
-            </p>
+  <p>
+    Users can explore stocks, search for market information, track selected
+    stocks through a watchlist, view stock prices and related information,
+    place simulated buy orders, and monitor their orders, holdings, positions,
+    and available funds through the dashboard. The platform is designed to
+    make different parts of a stock market application available through a
+    simple and organized interface.
+  </p>
 
-            <p>
-              <a href="#">Smart Online Dispute Resolution</a> |{" "}
-              <a href="#">Grievances Redressal Mechanism</a>
-            </p>
+  <p>
+    <a href="#">Explore TradeZone</a> |{" "}
+    <a href="#">Trading Dashboard</a> |{" "}
+    <a href="#">Stocks</a> |{" "}
+    <a href="#">Watchlist</a> |{" "}
+    <a href="#">Orders</a> |{" "}
+    <a href="#">Holdings</a> |{" "}
+    <a href="#">Positions</a> |{" "}
+    <a href="#">Funds</a>
+  </p>
 
-            <p>
-              Investments in securities market are subject to market risks;
-              read all the related documents carefully before investing.
-            </p>
+  <p>
+    TradeZone is built using modern web development technologies including
+    <a href="#"> React.js</a>,
+    <a href="#"> JavaScript</a>,
+    <a href="#"> Bootstrap</a>,
+    <a href="#"> Node.js</a>,
+    <a href="#"> Express.js</a>, and
+    <a href="#"> MongoDB</a>. These technologies work together to create a
+    responsive frontend, backend services, database operations, and API-based
+    communication between different parts of the application.
+  </p>
 
-            <p>
-              Attention investors: 1) Stock brokers can accept securities as
-              margins from clients only by way of pledge in the depository
-              system w.e.f September 01, 2020. 2) Update your e-mail and phone
-              number with your stock broker / depository participant and receive
-              OTP directly from depository on your e-mail and/or mobile number
-              to create pledge. 3) Check your securities / MF / bonds in the
-              consolidated account statement issued by NSDL/CDSL every month.
-            </p>
+  <p>
+    The application uses REST APIs to connect the frontend with the backend
+    and database. External market data APIs are used to provide stock-related
+    information and demonstrate real-world API integration. User actions
+    performed on the dashboard are processed through the backend before the
+    updated information is returned to the frontend and displayed to the user.
+  </p>
 
-            <p>
-              India's largest broker based on networth as per NSE.{" "}
-              <a href="#">NSE broker factsheet</a>
-            </p>
+  <p>
+    One of the important workflows demonstrated by TradeZone is the complete
+    order flow. A user can select a stock, enter the required quantity and
+    price, place a simulated buy order, send the request to the backend, save
+    the relevant information in the database, and then view the updated order
+    and holdings information on the dashboard.
+  </p>
 
-            <p>
-              "Prevent unauthorised transactions in your account. Update your
-              mobile numbers/email IDs with your stock brokers/depository
-              participants. Receive information of your transactions directly
-              from Exchange/Depositories on your mobile/email at the end of the
-              day. Issued in the interest of investors. KYC is one time
-              exercise while dealing in securities markets - once KYC is done
-              through a SEBI registered intermediary (broker, DP, Mutual Fund
-              etc.), you need not undergo the same process again when you
-              approach another intermediary." Dear Investor, if you are
-              subscribing to an IPO, there is no need to issue a cheque. Please
-              write the Bank account number and sign the IPO application form
-              to authorize your bank to make payment in case of allotment. In
-              case of non allotment the funds will remain in your bank account.
-              As a business we don't give stock tips, and have not authorized
-              anyone to trade on behalf of others. If you find anyone claiming
-              to be part of Zerodha and offering such services, please{" "}
-              <a href="#">create a ticket here.</a>
-            </p>
+  <p>
+    The project also demonstrates important full-stack development concepts
+    such as component-based frontend development, API communication, database
+    management, user authentication, state updates, error handling, external
+    API integration, environment configuration, and deployment. The project
+    helped in understanding how individual technologies work together to form
+    a complete web application.
+  </p>
 
-             
+  <p>
+    <a href="#">GitHub Repository</a> |{" "}
+    <a href="#">Project Documentation</a> |{" "}
+    <a href="#">Technology Stack</a> |{" "}
+    <a href="#">About TradeZone</a> |{" "}
+    <a href="#">Contact</a>
+  </p>
 
-          </div>
+  <p>
+    TradeZone is developed for educational, learning, and portfolio
+    demonstration purposes. It is not a registered stock broker, investment
+    advisor, financial institution, or financial advisory service. The
+    platform is intended to demonstrate software development and simulated
+    trading workflows rather than provide actual financial services.
+  </p>
+  
+  <p>
+    © 2026, TradeZone. All rights reserved. TradeZone is an independent
+    educational project created to demonstrate modern full-stack web
+    development and stock market application workflows.
+  </p>
+
+</div>
 
         </div>
       </footer>

@@ -25,7 +25,7 @@ background-color:black;
             marginTop: "0px",
             marginBottom: "20px",
             lineHeight: "1.3",
-          }}>The Zerodha Universe</h2>
+          }}>The Tradezone Universe</h2>
         <p>
           Extend your trading and investment experience even further with our
           partner platforms

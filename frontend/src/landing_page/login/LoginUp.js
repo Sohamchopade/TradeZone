@@ -103,9 +103,9 @@ function LoginUp() {
 
           <div className="op">
 
-            <img src="media/images/logo.svg" alt="Logo" />
+            <img src="media/images/op.png" alt="Logo" />
  
-            <h2>Login to Zerodha</h2>
+            <h2>Login to Tradezone</h2>
 
 <form onSubmit={handleLogin}> 
             <input
@@ -140,12 +140,15 @@ function LoginUp() {
   Don't have an account?{" "}
   <Link to="/signup" style={{textDecoration:"none"}}>Sign up for free!</Link>
 </p>
-
+<br/>
           <p style={{ textAlign: "center",
     fontSize: "10px",
     color: "#9b9b9b",
     fontWeight: "300",
-    lineHeight: "1.6"}}>Zerodha Broking Limited: Member of NSE, BSE, MCX ‐ SEBI Reg.<br/> no. INZ000031633, CDSL ‐ SEBI Reg. no. IN-DP-431-2019 | <br/>Smart Online Dispute Resolution | SEBI SCORES<br/> 
+    marginBottom:"7px",
+    lineHeight: "1.6"}}>TradeZone is an educational project<br/> for learning and portfolio demonstration.<br/>
+All trading activities are simulated and no real financial services<br/> are provided.
+© 2026 TradeZone. All rights reserved.<br/> 
 
 v3.0.0</p>
 

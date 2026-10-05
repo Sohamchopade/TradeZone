@@ -53,12 +53,12 @@ function SignUp(){
 <h2 style={{
     textAlign: "center",
     fontFamily: "Arial, sans-serif",
-    fontSize: "36px",
+    fontSize: "30px",
     fontWeight: "500",
     color: "#424242",
     lineHeight: "1.5",
     margin: "20px 0 10px",
-  }}>Open a free demat and trading account online</h2>
+  }}>Create your TradeZone account</h2>
 
 <h3  style={{
     textAlign: "center",
@@ -68,7 +68,7 @@ function SignUp(){
     color: "#555555",
     lineHeight: "1.6",
     margin: "10px 0 40px",
-  }}>Start investing brokerage free and join a community of 1.6+ crore investors and traders</h3>
+  }}>Create an account and explore the TradeZone stock market platform</h3>
 
 <div className="col-6 mt-5 p-5">
 <img src="media/images/account_open.svg"style={{width:"600px"}}></img>
@@ -155,7 +155,7 @@ function SignUp(){
   }}>Already have a demat account?</h3>
   <br/>
 
-<p style={{textAlign:"center"}}>Move your holdings to Zerodha and we'll cover your transfer costs, up to ₹500,<a href="" style={{textDecoration:"none",textAlign:"center"}}>learn more.</a></p>
+<p style={{textAlign:"center"}}>Sign in to your TradeZone account and continue exploring the platform.<a href="" style={{textDecoration:"none",textAlign:"center"}}>learn more.</a></p>
 
 <h3 style={{
     textAlign: "center",
@@ -165,7 +165,7 @@ function SignUp(){
     color: "#424242",
     lineHeight: "1.5",
      marginTop:"100px"
-  }}>Investment options with Zerodha demat account</h3>
+  }}>Explore market features with TradeZone</h3>
 
  <div className="col-1"></div>
 

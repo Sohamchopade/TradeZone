@@ -19,25 +19,23 @@ function Brokerage() {
       
 
             <li className="text-muted"style={{fontSize:"15px"}}>
-              Call & Trade and RMS auto-squareoff:Additional charges of ₹50 +
-              GST per order.
+               All charges shown on TradeZone are simulated for educational and demonstration purposes.
             </li>
             <li className="text-muted"style={{fontSize:"15px"}}>Digital contract notes will be sent via e-mail.</li>
             <li className="text-muted"style={{fontSize:"15px"}}>
-              Physical copies of contract notes, if required, shall be charged
-              ₹20 per contract note. Courier charges apply.
+               No real brokerage or transaction charges are applied on the platform.
             </li>
             <li className="text-muted"style={{fontSize:"15px"}}>
-              For NRI account (non-PIS), 0.5% or ₹100 per executed order for
-              equity (whichever is lower).
+              Order-related charges are displayed only to demonstrate a trading platform's pricing structure.
             </li>
             <li className="text-muted"style={{fontSize:"15px"}}>
-              For NRI account (PIS), 0.5% or ₹200 per executed order for equity
-              (whichever is lower).
+               Digital order and transaction information is provided for demonstration purposes.
             </li>
             <li className="text-muted"style={{fontSize:"15px"}}>
-              If the account is in debit balance, any order placed will be
-              charged ₹40 per executed order instead of ₹20 per executed order.
+              TradeZone does not provide real brokerage, investment, or financial services
+            </li>
+             <li className="text-muted"style={{fontSize:"15px"}}>
+               All trading, orders, holdings, and portfolio activities on TradeZone are simulated and do not involve real-money transactions.
             </li>
           </ul>
         </div>

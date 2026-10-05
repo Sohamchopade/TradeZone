@@ -12,10 +12,10 @@ function Pricing() {
             letterSpacing: "-0.5px",
             lineHeight: "1.3",
             margin: "0 0 18px",
+            
           }}>Unbeatable pricing</h3>
           <p>
-            We pioneered the concept of discount broking and price transparency
-            in India. Flat fees and no hidden charges.
+            Simple and transparent pricing for an easy-to-understand trading experience.
           </p>
           <a href="" style={{ textDecoration: "none" }}>
             See Pricing <span style={{ fontSize: "15px" }}>➜</span>{" "}
