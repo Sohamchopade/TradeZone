@@ -20,3 +20,41 @@ A full-stack stock market platform inspired by Zerodha, built with React.js, Nod
 ## Tech Stack
 
 **Frontend Website:** React.js, JavaScript, Bootstrap
+
+**Trading Dashboard:** React.js, Material UI
+
+**Backend:** Node.js, Express.js, REST APIs
+
+**Database:** MongoDB
+
+**Stock Data Integration:** BharatStock API
+
+**Deployment and Tools:** Render, Git, GitHub
+
+## Project Structure
+
+- `frontend/` — Public-facing website, including home, products, pricing, about, support, signup, and login pages.
+- `dashboard/` — Trading dashboard with stock search, watchlist, orders, holdings, positions, and funds sections.
+- `backend/` — Express.js server, API routes, and database-related logic.
+
+## Application Workflow
+
+1. Users access the public website and use the available signup or login flow.
+2. The frontend and trading dashboard communicate with backend services through API requests.
+3. The backend processes requests and interacts with MongoDB where persistence is required.
+4. Stock data is retrieved through the stock market data API and displayed in the dashboard.
+5. The buy-order workflow updates order and holdings information supported by the application.
+
+## Try TradeZone
+
+Explore the website and trading dashboard through the live demo.
+
+[![Explore TradeZone](https://img.shields.io/badge/EXPLORE_TRADEZONE-Visit_App-2563EB?style=for-the-badge)](https://tradezone-frontend-6v41.onrender.com/)
+
+**Note:** TradeZone is a learning project inspired by stock trading platforms. The order workflow is intended for demonstration and should not be treated as a real brokerage service or used for real-money trading.
+
+## Author
+
+**Soham Chopade**
+
+[![GitHub](https://img.shields.io/badge/View_Profile-181717?style=for-the-badge&logo=github)](https://github.com/Sohamchopade)
