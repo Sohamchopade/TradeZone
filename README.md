@@ -2,7 +2,7 @@
 
 A full-stack stock market platform inspired by Zerodha, built with React.js, Node.js, Express.js, and MongoDB. TradeZone combines a public-facing website with a trading dashboard for exploring stocks and managing a simulated portfolio workflow.
 
-[![Live Demo](https://tradezone-frontend-6v41.onrender.com)
+[![Live Demo](https://img.shields.io/badge/LIVE_DEMO-https://tradezone-frontend-6v41.onrender.com)
 
 ## Features
 
@@ -49,7 +49,8 @@ A full-stack stock market platform inspired by Zerodha, built with React.js, Nod
 
 Explore the website and trading dashboard through the live demo.
 
-[![Explore TradeZone](https://tradezone-frontend-6v41.onrender.com)
+[![Explore TradeZone](https://img.shields.io/badge/EXPLORE_TRADEZONE-Visit_App-https://tradezone-frontend-6v41.onrender.com)
+
 **Note:** TradeZone is a learning project inspired by stock trading platforms. The order workflow is intended for demonstration and should not be treated as a real brokerage service or used for real-money trading.
 
 ## Author
